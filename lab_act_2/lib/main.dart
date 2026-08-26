@@ -5,8 +5,8 @@ void main() {
     backgroundColor: const Color.fromARGB(255, 255, 252, 71),
     body: GradientContainer(),
         ),
-        ),
-        );
+      ),
+    );
  
 }
 
