@@ -23,7 +23,7 @@ class GradientContainer extends StatelessWidget {
           children: [
 
             Image.asset(
-              'asset/Laboratory 02/logo.png',
+              'assets/Laboratory 02/logo.png',
               width: 300,
             ),
             const SizedBox(height:86),
