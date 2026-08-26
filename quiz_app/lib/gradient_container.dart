@@ -29,11 +29,18 @@ class GradientContainer extends StatelessWidget {
             const SizedBox(height:86),
             const StyledText('Learn Flutter the fun way!'),
             const SizedBox(height:30),
-            OutlinedButton(onPressed: () {},
-              
-            )
-          ]
-        )
+            OutlinedButton(
+              onPressed: () {},
+              style: OutlinedButton.styleFrom(
+                foregroundColor: Colors.white,
+                side: const BorderSide(color: Colors.deepPurpleAccent),
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10,),
+              ),
+                child: const Text('Start Quiz', style: TextStyle(fontSize: 16),
+                ),
+            ),
+          ],
+        ),
       ),
     );
   }

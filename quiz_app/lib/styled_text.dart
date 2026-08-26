@@ -7,9 +7,9 @@ class StyledText extends StatelessWidget{
   Widget build(context) {
     return Text(
       text,
-          style: TextStyle(
-            fontSize: 220,
-            color: Colors.lightBlue,
+          style: const TextStyle(
+            fontSize: 24,
+            color: Colors.white,
           ),
           );
   }
