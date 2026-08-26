@@ -3,9 +3,7 @@ import 'package:lab_act_2/dice_roller.dart';
 import 'styled_text.dart';
  
 class GradientContainer extends StatelessWidget {
-  GradientContainer({super.key});
-
-  
+  const GradientContainer({super.key});
 
   @override
   Widget build(context) {
