@@ -7,7 +7,7 @@ class Category {
     this.color = Colors.orange,
   });
 
-  final String title;
   final String id;
+  final String title;
   final Color color;
 }
